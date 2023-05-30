@@ -20,7 +20,7 @@ jobs:
     # The type of runner that the job will run on
     strategy:
       matrix:
-        python-versions: [3.8, 3.9, 3.10]
+        python-versions: ["3.8", "3.9", "3.10"]
         os: [ubuntu-18.04, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
 
@@ -28,7 +28,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-versions }}
 
