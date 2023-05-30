@@ -1,5 +1,5 @@
 # To install the git pre-commit hooks run:
-#   pre-commit install --install-hooks
+#   pre-commit install
 # To update the versions:
 #   pre-commit autoupdate
 exclude: '^(\.tox|\.bumpversion\.cfg)(/|$)'
