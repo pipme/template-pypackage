@@ -1,0 +1,8 @@
+name: {{ cookiecutter.project_name_slug }}
+dependencies:
+  - python={{ cookiecutter.conda_python_interpreter }}
+  - ipywidgets
+  - ipykernel
+  - pip
+  - pip:
+      - .[all]

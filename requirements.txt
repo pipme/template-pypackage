@@ -1,0 +1,10 @@
+pytest>=7.3.1
+pytest-cookies
+pyyaml
+mkdocs
+mkdocs-material
+mkdocs-material-extensions
+pytest-cov
+tox
+mkdocs-include-markdown-plugin
+clic

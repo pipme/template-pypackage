@@ -1,0 +1,38 @@
+{
+    "project_name": "python-project",
+    "project_name_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "A python project created by Cookiecutter.",
+    "full_name": "Chengkun Li",
+    "email": "sjtulck@gmail.com",
+    "github_username": "pipme",
+    "version": "0.0.0",
+    "conda_python_interpreter": [
+        "3.10",
+        "3.9"
+    ],
+    "command_line_interface": [
+        "click",
+        "argparse",
+        "plain",
+        "no"
+    ],
+    "license": [
+        "MIT",
+        "BSD-3-Clause",
+        "ISC",
+        "Apache-2.0",
+        "GPL-3.0-only",
+        "no"
+    ],
+    "docstrings_style": [
+        "numpy",
+        "google"
+    ],
+    "_copy_without_render": [
+        "docs/changelog.md",
+        "docs/contributing.md",
+        "docs/index.md",
+        ".github/workflows/*.yml"
+    ]
+}
