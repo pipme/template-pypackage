@@ -556,8 +556,57 @@ some tutorials at the top of the page at <a href="https://help.github.com/">GitH
 <p>Finally, a new folder will be created under current folder, the name is the answer you
 provided to <code>project_name_slug</code>.</p>
 <p>Go to this generated folder, the project layout should look like:</p>
-<p>TODO</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>.
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div><pre><span></span><code>python_project
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── docs
+│   ├── api.md
+│   ├── changelog.md
+│   ├── index.md
+│   ├── installation.md
+│   └── usage.md
+├── environment.yml
+├── mkdocs.yml
+├── mypy.ini
+├── pyproject.toml
+├── pytest.ini
+├── python_project
+│   ├── __init__.py
+│   ├── __main__.py
+│   └── cli.py
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-39.pyc
+│   └── test_python_project.py
+└── tox.ini
 </code></pre></div></td></tr></table></div>
 <p>Here the <code>project_name_slug</code> is <code>python_project</code>, when you generate yours, it could be other name.</p>
 <p>Also be noticed that there's <code>pyproject.toml</code> in this folder. This is the main configuration file of our project.</p>
