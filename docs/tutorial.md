@@ -33,10 +33,33 @@ provided to `project_name_slug`.
 
 Go to this generated folder, the project layout should look like:
 
-TODO
-
 ```
-.
+python_project
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── docs
+│   ├── api.md
+│   ├── changelog.md
+│   ├── index.md
+│   ├── installation.md
+│   └── usage.md
+├── environment.yml
+├── mkdocs.yml
+├── mypy.ini
+├── pyproject.toml
+├── pytest.ini
+├── python_project
+│   ├── __init__.py
+│   ├── __main__.py
+│   └── cli.py
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-39.pyc
+│   └── test_python_project.py
+└── tox.ini
 ```
 
 Here the `project_name_slug` is `python_project`, when you generate yours, it could be other name.
@@ -82,9 +105,9 @@ cookiecutter.
 Then go to repo > settings > secrets, click on 'New repository secret', add the following
 secrets:
 
--   TEST_PYPI_API_TOKEN, see [How to apply TestPyPI token]
--   PYPI_API_TOKEN, see [How to apply pypi token]
--   PERSONAL_TOKEN, see [How to apply personal token]
+- TEST_PYPI_API_TOKEN, see [How to apply TestPyPI token]
+- PYPI_API_TOKEN, see [How to apply pypi token]
+- PERSONAL_TOKEN, see [How to apply personal token]
 
 ## Step 5: Set Up codecov integration
 
@@ -103,7 +126,7 @@ on `install` button, following directions until all set.
 If the repo you created is a private repo, you need to set the following additional secrets,
 which is not required for public repos:
 
--   CODECOV_TOKEN, see [Codecov GitHub Action - Usage](https://github.com/marketplace/actions/codecov?version=v1.5.2#usage)
+- CODECOV_TOKEN, see [Codecov GitHub Action - Usage](https://github.com/marketplace/actions/codecov?version=v1.5.2#usage)
 
 ## Step 6: Upload code to GitHub
 

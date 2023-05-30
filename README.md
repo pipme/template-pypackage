@@ -13,5 +13,5 @@ cookiecutter https://github.com/pipme/template-pypackage.git  # ~10s for setup
 
 This repo takes inspirits and reuses some code snippets from:
 
-- https://github.com/waynerv/cookiecutter-pypackage
-- https://github.com/ionelmc/cookiecutter-pylibrary
+- [https://github.com/waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage)
+- [https://github.com/ionelmc/cookiecutter-pylibrary](https://github.com/ionelmc/cookiecutter-pylibrary)
