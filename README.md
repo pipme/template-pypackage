@@ -1,6 +1,6 @@
 # A simple template for python packages.
 
-The primary aim for this template is for prototyping python projects (usually machine learning related) that follow some good conventions. Conda environment is supported for development via `environment.yml`.
+The primary aim of this template is for prototyping python projects (usually machine learning related) that adhere to good conventions. Conda environment is supported for development via `environment.yml`.
 
 To create a new python project using this template, run:
 
