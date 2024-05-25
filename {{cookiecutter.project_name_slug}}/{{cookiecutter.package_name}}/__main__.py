@@ -14,6 +14,7 @@ import sys
 
 from {{cookiecutter.package_name}}.cli import main
 
+
 if __name__ == "__main__":
 {%- if cookiecutter.command_line_interface == "plain" %}
     sys.exit(main())

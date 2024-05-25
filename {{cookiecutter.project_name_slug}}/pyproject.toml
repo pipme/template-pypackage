@@ -14,7 +14,7 @@ dependencies = ["argparse"]
 
 
 [project.optional-dependencies]
-ml = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "hydra-core"]
+ml = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "hydra-core", "tqdm"]
 test = ["pytest", "pytest-cov", "pytest-sugar"]
 dev = ["ruff", "black", "tox", "mypy", "pre-commit", "bump2version", "twine"]
 docs = [

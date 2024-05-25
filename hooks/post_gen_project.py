@@ -58,6 +58,8 @@ if __name__ == "__main__":
         cli_file = os.path.join("{{ cookiecutter.package_name }}", "cli.py")
         remove_file(cli_file)
 
+        main_file = os.path.join("{{ cookiecutter.package_name }}", "__main__.py")
+        remove_file(main_file)
     try:
         init_git()
     except Exception as e:
